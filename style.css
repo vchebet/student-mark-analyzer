@@ -1,0 +1,94 @@
+/* Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Page */
+body {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  background: linear-gradient(135deg, #667eea, #764ba2);
+  min-height: 100vh;
+  padding: 40px;
+  color: #333;
+}
+
+/* Title */
+h1 {
+  text-align: center;
+  color: #ffffff;
+  margin-bottom: 30px;
+  letter-spacing: 1px;
+}
+
+/* Button */
+button {
+  display: block;
+  margin: 0 auto 30px auto;
+  padding: 14px 30px;
+  font-size: 16px;
+  font-weight: bold;
+  cursor: pointer;
+  background: linear-gradient(135deg, #22c55e, #16a34a);
+  color: white;
+  border: none;
+  border-radius: 30px;
+  box-shadow: 0 10px 20px rgba(0,0,0,0.2);
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+button:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 14px 25px rgba(0,0,0,0.3);
+}
+
+/* Containers */
+.report,
+.summary {
+  max-width: 700px;
+  margin: 0 auto 20px auto;
+  background: #ffffff;
+  padding: 25px;
+  border-radius: 16px;
+  box-shadow: 0 12px 30px rgba(0,0,0,0.15);
+}
+
+/* Section titles */
+.report h2,
+.summary h2 {
+  color: #4f46e5;
+  margin-bottom: 15px;
+  text-align: center;
+}
+
+/* Student rows */
+.student {
+  padding: 12px 10px;
+  border-left: 6px solid #4f46e5;
+  background: #f9fafb;
+  border-radius: 8px;
+  margin-bottom: 10px;
+  font-weight: 500;
+}
+
+/* PASS / FAIL highlighting */
+.student:contains("PASS") {
+  border-left-color: #22c55e;
+}
+
+.student:contains("FAIL") {
+  border-left-color: #ef4444;
+}
+
+/* Summary text */
+.summary p {
+  margin: 10px 0;
+  font-size: 16px;
+  color: #111827;
+}
+
+/* Footer spacing */
+.summary p:last-child {
+  margin-bottom: 0;
+}
