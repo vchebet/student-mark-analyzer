@@ -78,7 +78,7 @@ button:hover {
 }
 
 .student:contains("FAIL") {
-  border-left-color: #ef4444;
+  border-left-color: #a96767;
 }
 
 /* Summary text */
