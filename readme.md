@@ -2,7 +2,9 @@
 
 A simple JavaScript mini project that analyzes student marks, calculates averages, assigns grades, and displays a class report and summary.:computer:
 
-## Features
+## Features:
+
+💻
 
 - Calculates average marks for each student
 - Assigns grades (A–E)
