@@ -1,6 +1,6 @@
 # Student Marks Analyzer
 
-A simple JavaScript mini project that analyzes student marks, calculates averages, assigns grades, and displays a class report and summary.:computer:
+:computer: A simple JavaScript mini project that analyzes student marks, calculates averages, assigns grades, and displays a class report and summary.
 
 ## Features:
 
